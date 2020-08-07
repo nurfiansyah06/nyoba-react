@@ -31,11 +31,11 @@ export default function Hero(props) {
             make another memorable moments.
           </p>
           <Button
-            className="btn px-3"
+            className="btn px-5"
             hasShadow
             isPrimary
             onClick={showMostPicked}
-            style={{ fontWeight: 500 }}
+            style={{ fontWeight: 500, fontSize: 18 }}
           >
             Show Me Now
           </Button>
